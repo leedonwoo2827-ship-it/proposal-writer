@@ -1,5 +1,5 @@
 ---
-name: proposal-writer
+name: proposal-writing
 description: RFP 요구사항(Skill 1)과 사내 데이터(Skill 2)를 결합하여 제안서 초안을 작성하는 스킬. 최종 결과물은 구조화된 JSON 파일로 출력되며, 미리보기 화면 표시 및 Skill 4(HWPX 변환)로 전달된다.
 ---
 
