@@ -1,4 +1,4 @@
-# Proposal Writer - AI 제안서 작성 스킬
+# Proposal writing - AI 제안서 작성 스킬
 
 RFP 요구사항과 회사 데이터를 결합하여 구조화된 JSON 형식의 제안서 초안을 자동 작성하는 Claude Desktop 스킬입니다.
 
@@ -75,12 +75,12 @@ RFP 요구사항과 회사 데이터를 결합하여 구조화된 JSON 형식의
 
 1. 이 레포지토리를 클론하거나 ZIP으로 다운로드합니다:
    ```bash
-   git clone https://github.com/leedonwoo2827-ship-it/proposal-writer.git
+   git clone https://github.com/leedonwoo2827-ship-it/proposal-writing.git
    ```
 
 2. Claude Desktop을 실행합니다.
 
-3. `proposal-writer` 폴더를 Claude Desktop 창에 드래그 앤 드롭합니다.
+3. `proposal-writing` 폴더를 Claude Desktop 창에 드래그 앤 드롭합니다.
 
 4. 스킬이 자동으로 설치되며, Claude가 사용 가능하다고 알려줍니다.
 
@@ -90,12 +90,12 @@ Claude Desktop의 Skills 디렉토리에 직접 복사:
 
 **Windows:**
 ```bash
-xcopy /E /I proposal-writer "%APPDATA%\Claude\skills\proposal-writer"
+xcopy /E /I proposal-writing "%APPDATA%\Claude\skills\proposal-writing"
 ```
 
 **macOS/Linux:**
 ```bash
-cp -r proposal-writer ~/.config/Claude/skills/
+cp -r proposal-writing ~/.config/Claude/skills/
 ```
 
 ## 사용 방법
@@ -128,8 +128,8 @@ Claude Desktop에서 자연스럽게 요청하세요:
 
 1. **rfp-analyzer** - RFP 분석 및 구조 추출
 2. **company-data-manager** - 회사 자료 분석 및 매칭
-3. **proposal-writer** (이 스킬) - 제안서 초안 작성
-4. **hwpx-writer** - HWPX 파일 생성
+3. **proposal-writing** (이 스킬) - 제안서 초안 작성
+4. **hwpx-writing** - HWPX 파일 생성
 5. **text2img-mcp** - 이미지 생성
 
 ## 예제
@@ -197,7 +197,7 @@ Reference 제안서의 논리 구조를 더 상세히 반영하여:
 - ✅ 전체 글자 수가 목표 범위(±10%) 내
 
 ### 3. 다음 단계
-- 생성된 `proposal-full.json`을 `hwpx-writer`로 전달하여 HWPX 파일 생성
+- 생성된 `proposal-full.json`을 `hwpx-writing`로 전달하여 HWPX 파일 생성
 - 미리보기 화면에서 최종 검토 후 수정
 
 ## 포함된 유틸리티
@@ -228,5 +228,5 @@ MIT License
 
 - [rfp-analyzer](https://github.com/leedonwoo2827-ship-it/rfp-analyzer) - RFP 분석 스킬
 - [company-data-manager](https://github.com/leedonwoo2827-ship-it/company-data-manager) - 회사 자료 관리 스킬
-- [hwpx-writer](https://github.com/leedonwoo2827-ship-it/hwpx-writer) - HWPX 생성 스킬
+- [hwpx-writing](https://github.com/leedonwoo2827-ship-it/hwpx-writing) - HWPX 생성 스킬
 - [text2img-mcp](https://github.com/leedonwoo2827-ship-it/text2img-mcp) - 이미지 생성 MCP
